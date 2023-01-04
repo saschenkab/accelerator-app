@@ -2,7 +2,7 @@
     "communityCards": [
         {
             "icon": {
-                "url": "../../assets/images/vector1.png"
+                "url": "../../images/community/vector1.png"
             },
             "title": "Incubator/Accelerator",
             "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p> <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
@@ -16,7 +16,7 @@
         },
         {
             "icon": {
-                "url": "../../assets/images/vector2.png"
+                "url": "../../images/community/vector2.png"
             },
             "title": "Corporations",
             "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p> <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
@@ -30,7 +30,7 @@
         },
         {
             "icon": {
-                "url": "../../assets/images/vector3.png"
+                "url": "../../images/community/vector3.png"
             },
             "title": "Investor",
             "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p> <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
@@ -44,7 +44,7 @@
         },
         {
             "icon": {
-                "url": "../../assets/images/vector4.png"
+                "url": "../../images/community/vector4.png"
             },
             "title": "Startup",
             "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p> <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
@@ -58,7 +58,7 @@
         },
         {
             "icon": {
-                "url": "../../assets/images/vector5.png"
+                "url": "../../images/community/vector5.png"
             },
             "title": "Open Challenge",
             "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p> <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
