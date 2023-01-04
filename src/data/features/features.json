@@ -3,7 +3,7 @@
         {
             "id": 1,
             "icon": {
-                "url": "../../assets/images/language-setting.png"
+                "url": "../../images/features/language-setting.png"
             },
             "title": "Multilingual",
             "description": "Be accessible. The application is supported in multiple languages. These includes English, French, Spanish, Deutsche, Portuguese, Arabic, Ukrainian, Bahasa, and Russian"
@@ -11,7 +11,7 @@
         {
             "id": 2,
             "icon": {
-                "url": "../../assets/images/calendar-schedule.png"
+                "url": "../../images/features/calendar-schedule.png"
             },
             "title": "Scheduling tools",
             "description": "Liberate your time by automating integrated scheduling for your team, mentors, and experts"
@@ -19,7 +19,7 @@
         {
             "id": 3,
             "icon": {
-                "url": "../../assets/images/task-edit.png"
+                "url": "../../images/features/task-edit.png"
             },
             "title": "Smart tasks",
             "description": "Drive action by assigning tasks with comprehensive segmentation capabilities"
@@ -27,7 +27,7 @@
         {
             "id": 4,
             "icon": {
-                "url": "../../assets/images/email-track.png"
+                "url": "../../images/features/email-track.png"
             },
             "title": "Track e-Mails",
             "description": "Gain clarity by sending tracked emails from within the platform to ensure receipt and interaction"
@@ -35,7 +35,7 @@
         {
             "id": 5,
             "icon": {
-                "url": "../../assets/images/email-automate.png"
+                "url": "../../images/features/email-automate.png"
             },
             "title": "Automate your e-Mails",
             "description": "Become superhuman by customizing your emails and automating communication with users throughout the platform"
@@ -43,7 +43,7 @@
         {
             "id": 6,
             "icon": {
-                "url": "../../assets/images/scheduling-plus.png"
+                "url": "../../images/features/scheduling-plus.png"
             },
             "title": "Calendar Integration",
             "description": "Stay on top of everything by syncing your Google or Microsoft calendar with your AcceleratorApp calendar for easy, automated scheduling"
@@ -51,7 +51,7 @@
         {
             "id": 7,
             "icon": {
-                "url": "../../assets/images/zapier-logo.png"
+                "url": "../../images/features/zapier-logo.png"
             },
             "title": "Zapier Integration",
             "description": "Collaborate with others by integrating your processes across departments using zapier as a bridge between AcceleratorApp and your favorite apps"
@@ -59,7 +59,7 @@
         {
             "id": 8,
             "icon": {
-                "url": "../../assets/images/plus.png"
+                "url": "../../images/features/plus.png"
             },
             "title": "And More...",
             "description": "And more features integrated within the software to make your incubator/accelerator run more smoothly"
