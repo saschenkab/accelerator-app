@@ -1,0 +1,44 @@
+    {
+        "reviewsCards": [
+            {
+                "description": "\"AcceleratorApp has helped us a lot to accelerate and optimize our application and selection process. We got very positive feedback from our team and applicants. It’s a great tool for every company reviewing and processing a large number of applications whilst minimizing manual work. The tool is customizable, user-friendly and the AcceleratorApp team is very responsive and supportive!\"",
+                "user": "François Jolly, Director of Programs <b>• Startup lab</b>",
+                "logo": {
+                    "url": "../../images/clients-reviews/customer-logo.png"
+                },
+                "customer-avatar": {
+                    "url": "../../images/clients-reviews/customer-avatar.png"
+                }
+            },
+            {
+                "description": "\"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis nostrum repudiandae commodi, dolores laborum dolore omnis consequuntur temporibus possimus hic est error iure. Ipsum, doloribus quam maxime itaque expedita odit aliquam fugit sequi sit nulla molestiae doloremque pariatur sint nesciunt debitis nostrum voluptates ipsa, animi iure aperiam, a iusto. Veritatis!\"",
+                "user": "Lorem ipsum dolor sit amet consectetur. Ex, neque! <b>• Startup lab</b>",
+                "logo": {
+                    "url": "../../images/clients-reviews/customer-logo.png"
+                },
+                "customer-avatar": {
+                    "url": "../../images/clients-reviews/customer-avatar2.jpg"
+                }
+            },
+            {
+                "description": "\"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis nostrum repudiandae commodi, dolores laborum dolore omnis consequuntur temporibus possimus hic est error iure. Ipsum, doloribus quam maxime itaque expedita odit aliquam fugit sequi sit nulla molestiae doloremque pariatur sint nesciunt debitis nostrum voluptates ipsa, animi iure aperiam, a iusto. Veritatis!\"",
+                "user": "Lorem ipsum dolor sit amet consectetur. Ex, neque! <b>• Startup lab</b>",
+                "logo": {
+                    "url": "../../images/clients-reviews/customer-logo.png"
+                },
+                "customer-avatar": {
+                    "url": "../../images/clients-reviews/customer-avatar3.jpeg"
+                }
+            },
+            {
+                "description": "\"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis nostrum repudiandae commodi, dolores laborum dolore omnis consequuntur temporibus possimus hic est error iure. Ipsum, doloribus quam maxime itaque expedita odit aliquam fugit sequi sit nulla molestiae doloremque pariatur sint nesciunt debitis nostrum voluptates ipsa, animi iure aperiam, a iusto. Veritatis!\"",
+                "user": "Lorem ipsum dolor sit amet consectetur. Ex, neque! <b>• Startup lab</b>",
+                "logo": {
+                    "url": "../../images/clients-reviews/customer-logo.png"
+                },
+                "customer-avatar": {
+                    "url": "../../images/clients-reviews/customer-avatar4.jpeg"
+                }
+            }
+        ]
+    }
