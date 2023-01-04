@@ -1,11 +1,13 @@
 import * as React from "react";
 import Header from "../components/Header";
+import Community from "../components/Community";
 import "../index.module.css";
 
 const IndexPage = () => {
   return (
     <>
       <Header />
+      <Community />
     </>
   );
 };
