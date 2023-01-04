@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Community from "../components/Community";
 import Features from "../components/Features";
 import "../index.module.css";
+import ClientsReviews from "../components/Client-Reviews";
 
 const IndexPage = () => {
   return (
@@ -10,6 +11,7 @@ const IndexPage = () => {
       <Header />
       <Community />
       <Features />
+      <ClientsReviews />
     </>
   );
 };
