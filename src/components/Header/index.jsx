@@ -40,10 +40,10 @@ const Header = () => {
   };
 
   return (
-    <Center>
-      <Skew></Skew>
+    <Container>
+      <Skew />
       <Looper />
-      <Container>
+      <Center>
         <span>Join in and connect</span>
         <h2>To faster your innovation potential</h2>
         <p>
@@ -53,8 +53,8 @@ const Header = () => {
         <Button>Schedule a Demo</Button>
         <Sample src={sample} alt='sample' />
         <ShowChatBubble />
-      </Container>
-    </Center>
+      </Center>
+    </Container>
   );
 };
 
