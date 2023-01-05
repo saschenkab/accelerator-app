@@ -33,6 +33,7 @@ const Header = () => {
           <ChatBubble
             src={hovering ? chatBubble2 : chatBubble}
             alt='chat-bubble'
+            loading='lazy'
           />
         </div>
       );
@@ -51,7 +52,7 @@ const Header = () => {
           facilitate innovation between all members of our community
         </p>
         <Button>Schedule a Demo</Button>
-        <Sample src={sample} alt='sample' />
+        <Sample src={sample} alt='sample' loading='lazy' />
         <ShowChatBubble />
       </Center>
     </Container>

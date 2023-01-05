@@ -73,11 +73,16 @@ const ClientsReviews = () => {
                 <ReviewCards>
                   <p>{data.description}</p>
                   <span dangerouslySetInnerHTML={{ __html: data.user }} />
-                  <img src={data.logo.url.publicURL} alt='client-logo' />
+                  <img
+                    src={data.logo.url.publicURL}
+                    alt='client-logo'
+                    loading='lazy'
+                  />
                   <ClientAvatar
                     className='avatar'
                     src={data.customer_avatar.url.publicURL}
                     alt='client-avatar'
+                    loading='lazy'
                   />
                 </ReviewCards>
               );

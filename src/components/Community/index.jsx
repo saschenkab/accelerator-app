@@ -46,19 +46,19 @@ const Community = () => {
     <Container>
       <ButtonsContainer>
         <Button>
-          <img src={incubator} alt='incubator' />
+          <img src={incubator} alt='incubator' loading='lazy' />
         </Button>
         <Button>
-          <img src={startup} alt='startup' />
+          <img src={startup} alt='startup' loading='lazy' />
         </Button>
         <Button>
-          <img src={rectangle} alt='menu' />
+          <img src={rectangle} alt='menu' loading='lazy' />
         </Button>
         <Button>
-          <img src={recangle1} alt='file' />
+          <img src={recangle1} alt='file' loading='lazy' />
         </Button>
         <Button>
-          <img src={recangle2} alt='stats' />
+          <img src={recangle2} alt='stats' loading='lazy' />
         </Button>
       </ButtonsContainer>
       <Intro>
@@ -71,7 +71,11 @@ const Community = () => {
           return (
             <Cards>
               <CardTitleContainer>
-                <img src={communityCard.icon.url.publicURL} alt='icon'></img>
+                <img
+                  src={communityCard.icon.url.publicURL}
+                  alt='icon'
+                  loading='lazy'
+                />
                 <CardTitle>{communityCard.title}</CardTitle>
               </CardTitleContainer>
               <CardDescription
@@ -82,7 +86,7 @@ const Community = () => {
               {communityCard.list.map((listItems) => {
                 return (
                   <CardList>
-                    <img src={check} alt='check-icon' />
+                    <img src={check} alt='check-icon' loading='lazy' />
                     {listItems}
                   </CardList>
                 );

@@ -86,6 +86,7 @@ const Features = () => {
                   key={features.icon.url.publicURL}
                   src={features.icon.url.publicURL}
                   alt='icon'
+                  loading='lazy'
                 />
                 <Title>{features.title}</Title>
                 <Description>{features.description}</Description>
@@ -100,7 +101,11 @@ const Features = () => {
           {mappedData.map((features) => {
             return (
               <Card>
-                <Image src={features.icon.url.publicURL} alt='icon' />
+                <Image
+                  src={features.icon.url.publicURL}
+                  alt='icon'
+                  loading='lazy'
+                />
                 <Title>{features.title}</Title>
                 <Description>{features.description}</Description>
               </Card>
