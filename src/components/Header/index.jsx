@@ -27,8 +27,13 @@ const Header = () => {
         <div
           onMouseOver={() => setHovering(true)}
           onMouseOut={() => setHovering(false)}
+          onFocus={() => setHovering(true)}
+          onBlur={() => setHovering(false)}
         >
-          <ChatBubble src={hovering ? chatBubble2 : chatBubble} />
+          <ChatBubble
+            src={hovering ? chatBubble2 : chatBubble}
+            alt='chat-bubble'
+          />
         </div>
       );
     }
@@ -46,7 +51,7 @@ const Header = () => {
           facilitate innovation between all members of our community
         </p>
         <Button>Schedule a Demo</Button>
-        <Sample src={sample} />
+        <Sample src={sample} alt='sample' />
         <ShowChatBubble />
       </Container>
     </Center>
