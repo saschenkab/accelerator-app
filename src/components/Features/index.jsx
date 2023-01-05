@@ -115,8 +115,8 @@ const Features = () => {
   };
   return (
     <div>
-      <Skew></Skew>
       <Container>
+        <Skew />
         <>
           <h1>Features Integrated</h1>
           <span>

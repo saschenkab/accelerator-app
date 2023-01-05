@@ -2,25 +2,22 @@ import styled from "styled-components";
 
 export const Skew = styled.div`
   width: 100%;
-  height: 1100px;
+  height: 115%;
   overflow: hidden;
   background: #f1f8f9;
   transform: skew(0deg, -8deg) translateY(-145px);
-  /* top: 403%; */
+  top: 3%;
   position: absolute;
   z-index: -1;
 
   @media screen and (min-width: 0) and (max-width: 480px) {
     transform: skew(0deg, -7deg) translateY(-140px);
-    top: 448%;
+    top: -70%;
   }
 
   @media screen and (min-width: 481px) and (max-width: 768px) {
     transform: skew(0deg, -7deg) translateY(-140px);
-  }
-
-  @media screen and (min-width: 769px) and (max-width: 1024px) {
-    top: 290%;
+    top: 20%;
   }
 `;
 
@@ -29,6 +26,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
   padding: 0 10%;
 
   h1 {
