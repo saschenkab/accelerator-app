@@ -211,8 +211,12 @@ export const CardTitle = styled.h2`
   font-size: 23px;
   line-height: 32px;
 
-  @media screen and (min-width: 0) and (max-width: 480px) {
-    font-size: 26px;
+  @media screen and (min-width: 0) and (max-width: 379px) {
+    font-size: 22px;
+  }
+
+  @media screen and (min-width: 380) and (max-width: 480px) {
+    font-size: 24px;
   }
 
   @media screen and (min-width: 481px) and (max-width: 768px) {

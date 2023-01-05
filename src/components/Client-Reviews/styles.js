@@ -334,6 +334,11 @@ export const ButtonsContainer = styled.div`
   width: 30%;
   margin-top: 2%;
   gap: 3%;
+  font-size: 14px;
+
+  @media screen and (min-width: 0) and (max-width: 379px) {
+    font-size: 12px;
+  }
 
   @media screen and (min-width: 0) and (max-width: 480px) {
     width: 90%;
@@ -357,7 +362,6 @@ export const RequestDemoButton = styled.div`
   border-radius: 4px;
   font-weight: 600;
   color: #ffff;
-  font-size: 14px;
   padding: 12px 24px;
   align-items: center;
 `;
