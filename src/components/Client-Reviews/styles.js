@@ -165,7 +165,6 @@ export const Discover = styled.div`
   font-size: 14px;
   height: 40px;
   border-radius: 5px;
-  font-family: "Poppins";
   border: 1px solid #206ecf40;
 
   img {

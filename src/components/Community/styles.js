@@ -102,11 +102,9 @@ export const Intro = styled.div`
   justify-content: left;
   align-items: left;
   width: 100%;
-  font-family: "Poppins";
   opacity: 0.8;
 
   h3 {
-    font-family: "Poppins";
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -117,7 +115,6 @@ export const Intro = styled.div`
   }
 
   h2 {
-    font-family: "Poppins";
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
@@ -129,7 +126,6 @@ export const Intro = styled.div`
   }
 
   p {
-    font-family: "Poppins";
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -152,7 +148,6 @@ export const ActionCardsContainer = styled.div`
   margin-top: 86px;
   margin-bottom: 46.57px;
   align-items: center;
-  font-family: "Poppins";
   gap: 18px;
 
   @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -211,7 +206,6 @@ export const CardTitle = styled.h2`
   align-self: flex-start;
   margin: 0;
   color: #363c45;
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 23px;
@@ -235,7 +229,6 @@ export const CardTitle = styled.h2`
 `;
 
 export const CardDescription = styled.p`
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -256,7 +249,6 @@ export const CardSeparator = styled.div`
 `;
 
 export const CardSubtitle = styled.h5`
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -269,7 +261,6 @@ export const CardSubtitle = styled.h5`
 export const CardList = styled.div`
   display: flex;
   align-items: center;
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -287,7 +278,6 @@ export const CardButton = styled.div`
   align-content: center;
   padding: 12px 24px;
   margin-top: 72.32px;
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;

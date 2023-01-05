@@ -32,7 +32,6 @@ export const Container = styled.div`
   padding: 0 10%;
 
   h1 {
-    font-family: "Poppins";
     font-style: normal;
     font-weight: 600;
     font-size: 45px;
@@ -44,7 +43,6 @@ export const Container = styled.div`
   }
 
   span {
-    font-family: "Poppins";
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -130,7 +128,6 @@ export const Card = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  font-family: "Poppins";
   padding: 24px 16px 0 16px;
   background-color: #fff;
   width: calc(33.33% - 20px);
@@ -186,7 +183,6 @@ export const DiscoverButton = styled.div`
   font-size: 14px;
   height: 40px;
   border-radius: 5px;
-  font-family: "Poppins";
   border: 1px solid #206ecf40;
 
   img {

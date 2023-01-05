@@ -89,7 +89,6 @@ export const Container = styled.div`
   }
 
   span {
-    font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
@@ -117,7 +116,6 @@ export const Container = styled.div`
 
   h2 {
     width: 60%;
-    font-family: "Poppins";
     font-style: normal;
     font-weight: 700;
     font-size: 72px;
@@ -156,7 +154,6 @@ export const Container = styled.div`
 
   p {
     width: 50%;
-    font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -196,7 +193,6 @@ export const Button = styled.button`
   border-radius: 4px;
   border: none;
   color: #1b1e22;
-  font-family: "Poppins";
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
