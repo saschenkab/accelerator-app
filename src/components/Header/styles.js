@@ -1,5 +1,9 @@
 import styled from "styled-components";
 import looper from "../../images/header/looper.png";
+import chatBubble from "../../images/header/chat-bubble.png";
+import chatBubble2 from "../../images/header/chat-bubble2.png";
+
+const bubbles = { chatBubble, chatBubble2 };
 
 export const Center = styled.div`
   display: flex;
@@ -229,14 +233,30 @@ export const Button = styled.div`
   }
 `;
 
-export const ChatBubble = styled.img`
+export const ChatBubble = styled.div`
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
   width: 4%;
   border-radius: 50%;
+  padding: 2.5%;
   top: 90%;
   left: 90%;
-  height: unset;
+  height: 4%;
+  background-image: url(${bubbles.chatBubble});
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+
+  &:hover {
+    background-image: url(${bubbles.chatBubble2});
+  }
+
+  &:focus {
+    background-image: url(${bubbles.chatBubble2});
+  }
 `;
 
 export const Sample = styled.img`

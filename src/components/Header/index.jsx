@@ -9,34 +9,16 @@ import {
   Skew,
 } from "./styles";
 import sample from "../../images/header/Videosample.png";
-import chatBubble from "../../images/header/chat-bubble.png";
-import chatBubble2 from "../../images/header/chat-bubble2.png";
-import { useState } from "react";
 import { useMediaQuery } from "react-responsive";
 
 const Header = () => {
-  const [hovering, setHovering] = useState(false);
-
   const s_m_width = useMediaQuery({
     query: "(max-width: 768px)",
   });
 
   const ShowChatBubble = () => {
     if (!s_m_width) {
-      return (
-        <div
-          onMouseOver={() => setHovering(true)}
-          onMouseOut={() => setHovering(false)}
-          onFocus={() => setHovering(true)}
-          onBlur={() => setHovering(false)}
-        >
-          <ChatBubble
-            src={hovering ? chatBubble2 : chatBubble}
-            alt='chat-bubble'
-            loading='lazy'
-          />
-        </div>
-      );
+      return <ChatBubble />;
     }
   };
 
