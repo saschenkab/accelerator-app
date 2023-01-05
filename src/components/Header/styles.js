@@ -188,11 +188,13 @@ export const Container = styled.div`
   }
 `;
 
-export const Button = styled.button`
+export const Button = styled.div`
   padding: 12px 2px;
   border-radius: 4px;
   border: none;
   color: #1b1e22;
+  background-color: #fff;
+  text-align: center;
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
