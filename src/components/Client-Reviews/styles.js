@@ -166,6 +166,7 @@ export const Discover = styled.div`
   height: 40px;
   border-radius: 5px;
   border: 1px solid #206ecf40;
+  z-index: 1;
 
   img {
     object-fit: scale-down;
