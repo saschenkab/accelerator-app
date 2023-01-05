@@ -172,6 +172,15 @@ export const Discover = styled.div`
     margin-left: 1%;
   }
 
+  &:hover {
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.15);
+    border: none;
+
+    img {
+      transform: translateX(20%);
+    }
+  }
+
   @media screen and (min-width: 0px) and (max-width: 480px) {
     position: absolute;
     width: 100%;
@@ -364,6 +373,15 @@ export const RequestDemoButton = styled.div`
   color: #ffff;
   padding: 12px 24px;
   align-items: center;
+  cursor: pointer;
+  transition: 0.5s;
+
+  &:hover {
+    /* color: #206ecf;
+    background-color: #ffff; */
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+    transform: scale(1.03);
+  }
 `;
 
 export const ContactButton = styled.div`
@@ -372,4 +390,13 @@ export const ContactButton = styled.div`
   color: #206ecf;
   border: 1px solid #206ecf;
   padding: 12px 24px;
+  cursor: pointer;
+  transition: 0.5s;
+
+  &:hover {
+    /* color: #ffff;
+    background-color: #206ecf; */
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+    transform: scale(1.06);
+  }
 `;

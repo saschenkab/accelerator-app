@@ -227,9 +227,16 @@ export const Button = styled.div`
   line-height: 20px;
   width: 165px;
   height: 48px;
+  cursor: pointer;
+  transition: 0.3s;
 
   @media screen and (min-width: 0) and (max-width: 480px) {
     width: 250px;
+  }
+
+  &:hover {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    color: #206ecf;
   }
 `;
 
@@ -249,13 +256,13 @@ export const ChatBubble = styled.div`
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+  cursor: pointer;
+  transition: 0.3s;
 
-  &:hover {
-    background-image: url(${bubbles.chatBubble2});
-  }
-
+  &:hover,
   &:focus {
     background-image: url(${bubbles.chatBubble2});
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
   }
 `;
 

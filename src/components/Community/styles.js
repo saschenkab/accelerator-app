@@ -58,10 +58,15 @@ export const Button = styled.div`
   background: #ffff;
   width: 25%;
   aspect-ratio: 1/1;
-
+  cursor: pointer;
   box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.18);
   border-radius: 20%;
   align-self: flex-end;
+  transition: 0.3s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 
   &:nth-child(2) {
     align-self: center;
@@ -163,6 +168,12 @@ export const Cards = styled.div`
   padding: 32px;
   box-shadow: 0px 8px 15px 1px rgba(0, 0, 0, 0.08);
   border-radius: 32px;
+
+  &:hover {
+    h2 {
+      color: #206ecf;
+    }
+  }
 
   @media screen and (min-width: 0) and (max-width: 480px) {
     width: 100%;
@@ -292,4 +303,11 @@ export const CardButton = styled.div`
   border-radius: 4px;
   align-self: center;
   width: 90%;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #f1f8f9;
+    color: #206ecf;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.1);
+  }
 `;

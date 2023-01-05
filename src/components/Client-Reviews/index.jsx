@@ -22,7 +22,6 @@ import "slick-carousel/slick/slick-theme.css";
 const ClientsReviews = () => {
   const settings = {
     dots: true,
-    infinite: false,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,

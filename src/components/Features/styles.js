@@ -182,9 +182,30 @@ export const DiscoverButton = styled.div`
   height: 40px;
   border-radius: 5px;
   border: 1px solid #206ecf40;
+  cursor: pointer;
+  transition: 0.5s;
 
   img {
     object-fit: scale-down;
     margin-left: 2%;
+  }
+
+  &:hover {
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.15);
+    border: none;
+    width: 20%;
+    img {
+      transform: translateX(20%);
+    }
+  }
+
+  @media screen and (min-width: 1025px) and (max-width: 1270px) {
+    font-size: 12px;
+    width: 20%;
+    margin: 5%;
+
+    &:hover {
+      width: 21%;
+    }
   }
 `;
