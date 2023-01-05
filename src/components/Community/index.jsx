@@ -46,19 +46,19 @@ const Community = () => {
     <Container>
       <ButtonsContainer>
         <Button>
-          <img src={incubator} alt='' />
+          <img src={incubator} alt='incubator' />
         </Button>
         <Button>
-          <img src={startup} alt='' />
+          <img src={startup} alt='startup' />
         </Button>
         <Button>
-          <img src={rectangle} alt='' />
+          <img src={rectangle} alt='menu' />
         </Button>
         <Button>
-          <img src={recangle1} alt='' />
+          <img src={recangle1} alt='file' />
         </Button>
         <Button>
-          <img src={recangle2} alt='' />
+          <img src={recangle2} alt='stats' />
         </Button>
       </ButtonsContainer>
       <Intro>
@@ -71,7 +71,7 @@ const Community = () => {
           return (
             <Cards>
               <CardTitleContainer>
-                <img src={communityCard.icon.url.publicURL}></img>
+                <img src={communityCard.icon.url.publicURL} alt='icon'></img>
                 <CardTitle>{communityCard.title}</CardTitle>
               </CardTitleContainer>
               <CardDescription
@@ -82,7 +82,7 @@ const Community = () => {
               {communityCard.list.map((listItems) => {
                 return (
                   <CardList>
-                    <img src={check} />
+                    <img src={check} alt='check-icon' />
                     {listItems}
                   </CardList>
                 );

@@ -63,7 +63,7 @@ const ClientsReviews = () => {
           <Title>What our costumers say</Title>
           <Discover>
             150 + incubators/accelerators using AcceleratorApp
-            <img src={arrow} alt='' />
+            <img src={arrow} alt='arrow' />
           </Discover>
         </LeftContainer>
         <RightContainer>
@@ -73,11 +73,11 @@ const ClientsReviews = () => {
                 <ReviewCards>
                   <p>{data.description}</p>
                   <span dangerouslySetInnerHTML={{ __html: data.user }} />
-                  <img src={data.logo.url.publicURL} alt='' />
+                  <img src={data.logo.url.publicURL} alt='client-logo' />
                   <ClientAvatar
                     className='avatar'
                     src={data.customer_avatar.url.publicURL}
-                    alt=''
+                    alt='client-avatar'
                   />
                 </ReviewCards>
               );
